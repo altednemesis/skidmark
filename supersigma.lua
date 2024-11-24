@@ -45,7 +45,6 @@ function bulletObject.new(bulletData)
             bulletData.velocity = bulletData.velocity.Unit * serverSpeed
         end
     end
-
     return newbullet(bulletData)
 end
 
