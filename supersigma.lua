@@ -89,6 +89,14 @@ function modifyData.getModifiedData(data, ...)
                         data.pelletcount = realData.pelletcount
                     end
 
+                    if data.bulletspeed ~= realData.bulletspeed then
+			            data.bulletspeed = realData.bulletspeed
+                    end
+
+                    if data.penetrationdepth > realData.penetrationdepth then
+                        data.penetrationdepth = realData.penetrationdepth
+                    end
+
                     break
                 end
             end
